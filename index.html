@@ -2,20 +2,64 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+}
+</style>
 </head>
-
 <body>
 
 <h2><font color="red"><u>Best Shopping Deals Of the Day </u></font> 
 </h2>
 <marquee>
 <img align="center" src="https://1.bp.blogspot.com/-b6-5CTpRtpw/YA2_liJ4sgI/AAAAAAAAHnk/v7smxrOnZAkYWSUaW2lWvXA35WVfMj_QwCNcBGAsYHQ/s200/aaa.gif"><br></marquee>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=abhishek00482-21&marketplace=amazon&region=IN&placement=B07T9D53RM&asins=B07T9D53RM&linkId=&show_border=true&link_opens_in_new_window=false"></iframe>
 
-<iframe style="width:220px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=abhishek00482-21&marketplace=amazon&region=IN&placement=B08TZTHK9K&asins=B08TZTHK9K&linkId=&show_border=true&link_opens_in_new_window=false"></iframe>
-<iframe style="width:220px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=abhishek00482-21&marketplace=amazon&region=IN&placement=B0823BCX54&asins=B0823BCX54&linkId=&show_border=true&link_opens_in_new_window=false"></iframe>
-<iframe style="width:220px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=abhishek00482-21&marketplace=amazon&region=IN&placement=B08PGMBF8V&asins=B08PGMBF8V&linkId=&show_border=true&link_opens_in_new_window=false"></iframe>
-<iframe style="width:220px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=abhishek00482-21&marketplace=amazon&region=IN&placement=B07TD8ZK6H&asins=B07TD8ZK6H&linkId=&show_border=true&link_opens_in_new_window=false"></iframe>
-<iframe style="width:220px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=abhishek00482-21&marketplace=amazon&region=IN&placement=B08LLWJJCD&asins=B08LLWJJCD&linkId=&show_border=true&link_opens_in_new_window=false"></iframe>
-<iframe style="width:120px;height:240px;" margin-left:auto; margin-right: auto; scrolling="no" frameborder="0" src="https://ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=abhishek00482-21&marketplace=amazon&region=IN&placement=B07BZTBSSM&asins=B07BZTBSSM&linkId=&show_border=true&link_opens_in_new_window=false"></iframe>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=abhishek00482-21&marketplace=amazon&region=IN&placement=B08B8SJ7NV&asins=B08B8SJ7NV&linkId=&show_border=true&link_opens_in_new_window=true"></iframe>
+    </div>
+  </div>
+
+
+</body>
+</html>
